@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form method="POST">
+        Personal Details
+        <div>
+            <label for="salutation">Salutation: </label><br>
+            <select name="salutation" title="salutation">
+                <option value="none">--None--</option>
+                <option value="Mr.">Mr.</option>
+                <option value="Mrs.">Mrs.</option>
+            </select>
+        </div><br>
+
+        <div>
+            <label for="firstname">First Name: </label>
+            <input title="firstname" type="text" name="firstname" placeholder="abcd">
+        </div><br>
+
+        <div>
+            <label for="lastname">Last Name: </label>
+            <input title="lastname" type="text" name="lastname" placeholder="abcd">
+        </div><br>
+
+        <div>
+            <label for="gender">Gender: </label>
+            <input title="male" type="radio" name="gender" value="male"><label for="male"> Male</label>
+            <input title="female" type="radio" name="gender" value="female"><label for="female"> Female</label>
+        </div><br>
+
+        <div>
+            <label for="email">Email: </label>
+            <input type="email" name="email" title="email" value="abc@gmail.com">
+        </div><br>
+
+        <div>
+            <label for="dob">Date of Birth: </label>
+            <input title="dob" type="date" name="dob">
+        </div><br>
+
+        <div>
+            <label for="address">Address: </label><br>
+            <textarea name="address" cols="30" rows="5" title="address"></textarea>
+        </div><br>
+
+        <input type="submit" name="submit" value="Submit">
+    </form>
+</body>
+
+</html>
